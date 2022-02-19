@@ -1,0 +1,222 @@
+:root {
+  /* fonts */
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+  /* color fonts */
+  --primary-txt: #212121;
+  --logo-blue--hover-color: #2196f3;
+  --hero-color--logo-white: #ffffff;
+  --text-paragraph--contact-link: #757575;
+  --link-text: #ffffff99;
+  /* background-color */
+  --background-main: #ffffff;
+  --background-hero--background-footer: #2f303a;
+  --background-team: #f5f4fa;
+  --background-hover-batton: #188ce8;
+}
+
+/* Common styles */
+body {
+  font-family: var(--main-font);
+  color: var(--primary-txt);
+  background-color: var(--background-main);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* header */
+.header {
+  background-color: var(--background-main);
+}
+
+.logo {
+  font-family: var(--logo-font);
+  color: var(--primary-txt);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-blue {
+  color: var(--logo-blue--hover-color);
+}
+
+.nav-link {
+  color: var(--primary-txt);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  color: var(--text-paragraph--contact-link);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--logo-blue--hover-color);
+}
+
+.nav-link.current {
+  color: var(--logo-blue--hover-color);
+}
+
+/* main-index */
+/* hero */
+.hero {
+  background-color: var(--background-hero--background-footer);
+}
+
+.hero-txt {
+  color: var(--hero-color--logo-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: var(--main-font);
+  color: var(--hero-color--logo-white);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--logo-blue--hover-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--background-hover-batton);
+}
+
+/* benefits */
+.benefits-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefits-txt {
+  color: var(--text-paragraph--contact-link);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* our work  */
+/* our team */
+/* title */
+.work-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* our team */
+.team {
+  background-color: var(--background-team);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  color: var(--text-paragraph--contact-link);
+  font-weight: normal;
+}
+
+/* portfolio */
+.button-portfolio {
+  font-family: var(--main-font);
+  color: var(--primary-txt);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--background-team);
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: var(--hero-color--logo-white);
+  background-color: var(--logo-blue--hover-color);
+}
+
+.portfolio-item-title {
+  color: var(--primary-txt);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  color: var(--text-paragraph--contact-link);
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-hero--background-footer);
+}
+
+.logo-footer {
+  color: var(--hero-color--logo-white);
+}
+
+.address {
+  font-family: var(--main-font);
+  font-style: normal;
+  color: var(--hero-color--logo-white);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-link {
+  color: var(--link-text);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--logo-blue--hover-color);
+}
