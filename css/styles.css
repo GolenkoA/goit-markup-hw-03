@@ -77,7 +77,7 @@ p:last-child {
 /* header */
 .header {
   padding-top: 24px;
-  padding-bottom: 23px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 
   background-color: var(--background-main);
